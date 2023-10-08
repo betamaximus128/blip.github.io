@@ -1,0 +1,53 @@
+
+#green {
+        color: #00FF00;
+      }
+      #five {
+        height: 5px;
+      }
+
+@media all and (min-width: 901px) {
+a1 {font-size:24px;color: #FFFFFF;}
+    .content .one{display:block;}
+    .content .two{display:none;}
+    .content .three{display:none;}
+
+}
+
+@media all and (max-width: 900px) {
+a1 {font-size:24px;color: #FFFFFF;}
+    .content .one{display:none;}
+    .content .two{display:block;}
+    .content .three{display:none;}
+
+}
+
+@media all and (max-width: 479px) {
+a1 {font-size:24px;color: #FFFFFF;}
+    .content .one{display:none;}
+    .content .two{display:none;}
+    .content .three{display:block;}
+
+}
+
+@font-face {
+    font-family: "blips";
+    src: url(fonts/zig.ttf) format("truetype");
+}
+@font-face {
+    font-family: "bloops";
+    src: url(fonts/ByteBounce.ttf) format("truetype");
+}
+@font-face {
+    font-family: "bleeps";
+    src: url(fonts/Play.otf) format("truetype");
+}
+
+a2{font-family: "blips", Verdana, Tahoma;}
+a3{font-family: "bloops", Verdana, Tahoma;}
+a4{font-family: "bleeps", Verdana, Tahoma;}
+
+
+
+
+
