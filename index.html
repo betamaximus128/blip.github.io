@@ -24,11 +24,10 @@
 
   gtag('config', 'G-VSBBD7L5G7');
 </script>
-
 </head>
 
-
 <body style= "background-color:#000000" vlink="#ffffff" alink="#ffffff" link="#ffffff";>
+<center>
 <div id=five style="background-color:#FFFFFF"></div>
 <div style=" background-color:#333333"><center><img src="pix/logoclear.png" width= "200px";></center></div>
 <div id=five style="background-color:#00FF00; width:100%"></div><br>
@@ -83,16 +82,29 @@
 
 <br><div id=five style="background-color:#0000FF"></div><br>
 
-<br><div id=five style="background-color:#FF0000"></div>
+<a3 style="color:#ffffff;font-size:30px;">Help keep blip.fun alive</a3>
 
-<div style=" background-color:#333333"><br><br><center>
-<a2 style = color:#FFFFFF>More games coming soon...</a>
-</center>
-<br><br></div>
+<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'5SJAWAYRWFG7E',
+image: {
+src:'https://pics.paypal.com/00/s/NzNjY2Y3OTAtYzE5OC00ZjI4LWE5NTUtZDEyMDFjYzM1Zjkz/file.PNG',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>
+
+
 
 <div id=five style="background-color:#FFFFFF"></div>
 
 <!--  -->
-
+</center>
 </body>
 </html>
